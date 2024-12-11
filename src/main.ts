@@ -19,7 +19,7 @@ async function init() {
   const session = await cameraKit.createSession({ liveRenderTarget });
   const lens = await cameraKit.lensRepository.loadLens(
     '1b368b25-8505-4097-8213-1395319c0d40',
-    'ba31da6f-8bda-4b19-9ea7-ca7ff23e9931'
+    '9deb22a6-c31c-4253-a403-b2db8d6912eb'
   );
 
   session.applyLens(lens);
