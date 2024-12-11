@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100vw;
+    height: 100dvh;
+    object-fit: cover;
+}
+
+#flip {
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    right: 4rem;
+    top: 4rem;
+    width: 16vw;
+}
+
+#recordBtn {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: 4rem;
+    width: 16vw;
+}

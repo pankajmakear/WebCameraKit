@@ -40,9 +40,9 @@ function bindFlipCamera(session: CameraKitSession) {
 async function updateCamera(session: CameraKitSession) {
   isBackFacing = !isBackFacing;
 
-  flipCamera.innerText = isBackFacing
-    ? 'Switch to Front Camera'
-    : 'Switch to Back Camera';
+  // flipCamera.innerText = isBackFacing
+  //   ? 'Switch to Front Camera'
+  //   : 'Switch to Back Camera';
 
   if (mediaStream) {
     session.pause();
