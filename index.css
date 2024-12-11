@@ -22,7 +22,7 @@
     width: 16vw;
 }
 
-#recordBtn {
+#recordBtn, #stopBtn {
     z-index: 1;
     position: absolute;
     right: 0;
@@ -30,4 +30,8 @@
     margin: auto;
     bottom: 4rem;
     width: 16vw;
+}
+#stopBtn
+{
+    display: none;
 }
